@@ -238,6 +238,7 @@ hr{
       box-shadow: 2px 2px 6px rgb(216, 208, 208);
       border-radius: 10px;
       padding: 1vw;
+      margin-top:2vw;
       /* padding: 1rem 0rem; */
 }
 .ratings .icons div p{
@@ -255,6 +256,43 @@ hr{
 .ratings .icons .card div span{
       font-weight: bold;
 }
+
+/* =================================================================================================*/
+/*                                         Styling for form                                        */
+/* ===============================================================================================*/
+
+.form{
+      color:aliceblue;
+      text-align: center;
+      width:100%;
+      margin:auto;
+      padding: 2vw;
+      background-color: black;
+}
+
+
+input[type="text"]{
+      color:black;
+      font-size: 1vw;
+      font-weight: bold;
+      width: 20vw;
+      /* height: 1vw; */
+      border: none;
+      /* border: 1px solid lightgrey; */
+      padding: 0.5vw 1vw;
+      margin: 1vw 0px;
+      background-color: white;
+}
+
+input[type="submit"]{
+      color:aliceblue;
+      font-size: 1vw;
+      background-color: #ED661F;
+      padding: 0.5vw 0.5vw;
+      border: none;
+      margin-left:-10px;
+}
+
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
       .container {
