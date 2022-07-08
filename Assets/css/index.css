@@ -1,6 +1,10 @@
 
 /* styling for container*/
 
+*{
+      font-family: 'Poppins';
+}
+
 .container{
       width: 100%;
       margin:auto;
@@ -291,6 +295,25 @@ input[type="submit"]{
       padding: 0.5vw 0.5vw;
       border: none;
       margin-left:-10px;
+}
+
+/* =================================================================================================*/
+/*                                         Styling for footer                                      */
+/* ===============================================================================================*/
+
+.footer{
+      color: aliceblue;
+      width: 100%;
+      margin: auto;
+      padding: 2vw;
+      display: flex;
+      justify-content: space-around;
+      background-color: black;
+      list-style: none;
+}
+.footer div li{
+      margin:1vw 0vw;
+
 }
 
 /*media query for screens larger than 992px*/
