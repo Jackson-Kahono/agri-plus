@@ -4,7 +4,8 @@
 .container{
       width: 100%;
       margin:auto;
-    }
+}
+
     
     /* ============================================================================================*/
     /*                                   Styling for Navbar                                       */
@@ -91,8 +92,9 @@
 /*                                   Styling for members-count                                     */
 /* ===============================================================================================*/
 .members-count{
-      width:40%;
+      width:35vw;
       background-color: rgb(255, 255, 255);
+      font-size:1.1vw;
       font-weight: bold;
       text-align: center;
       display: flex;
@@ -100,9 +102,11 @@
       list-style: none;
       padding: 2vw 1vw;
       box-shadow: 1px 1px 2px grey;
-      position: absolute;
-      top: 38vw;
-      left: 40vw;
+      transform: translateY(-4vw);
+      float:right;
+      /* position: absolute;
+      top: 72%;
+      left: 40vw; */
 }
 
 .members-count div li{
@@ -149,11 +153,45 @@
 /*                                         Styling for popular                                     */
 /* ===============================================================================================*/
 
+.popular{
+      width:100%;
+      margin:auto;
+      padding-top: 2vw;
+}
 
+.popular .content{
+      font-size: 1vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1vw 0px;
+
+}
+.popular .content div img{
+      width:12vw;
+      height:10vw;
+}
+
+.popular .content div{
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      list-style: none;
+}
+
+.content div li{
+      margin: 0.5vw 0px;
+}
+/* style the first appearance of li in div*/
+.popular .content div li:nth-last-child(3), .content div li:last-child{
+      font-weight: bold;
+}
 
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
-.container {
-      max-width: 1200px;
-}
+      .container {
+            max-width: 1200px;
+      }
 }
