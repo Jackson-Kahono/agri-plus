@@ -203,11 +203,15 @@
 .see{
       display: flex;
       justify-content: flex-end;
+      align-items: center;
       margin-bottom: 5vh;
 }
-.see div{
-      width:fit-content;
-      /* margin-right: 10vw; */
+
+.see i{
+      color: #ED661F;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-left:1rem;
 }
 
 hr{
