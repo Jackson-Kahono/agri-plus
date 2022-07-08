@@ -154,11 +154,13 @@
 /* ===============================================================================================*/
 
 .popular{
-      width:100%;
+      width:97%;
       margin:auto;
       padding-top: 2vw;
 }
-
+.popular h1{
+      font-size:1.5vw;
+}
 .popular .content{
       font-size: 1vw;
       display: flex;
@@ -208,6 +210,51 @@ hr{
       border-radius: 5px;
 }
 
+/* =================================================================================================*/
+/*                                         Styling for ratings                                     */
+/* ===============================================================================================*/
+
+.ratings{
+      width:95%;
+      margin:auto;
+      padding: 2vw;
+}
+
+.ratings .icons{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1vw 0px;
+      
+}
+
+.ratings img{
+      width:2.5vw;
+      margin-right: 1vw;
+}
+.ratings .icons .card{
+      width: 15vw;
+      
+      box-shadow: 2px 2px 6px rgb(216, 208, 208);
+      border-radius: 10px;
+      padding: 1vw;
+      /* padding: 1rem 0rem; */
+}
+.ratings .icons div p{
+      word-wrap: break-word;
+      font-size: 1.3vw;
+      word-spacing: 0.4em;
+      font-weight: bold;
+      margin: 1vw 0px;
+      padding: 1rem;
+}
+.ratings .icons div div{
+      display: flex;
+      align-items: center;
+}
+.ratings .icons .card div span{
+      font-weight: bold;
+}
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
       .container {
