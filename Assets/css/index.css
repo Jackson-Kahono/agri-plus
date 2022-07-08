@@ -329,6 +329,18 @@ input[type="submit"]{
       margin:1vw 0vw;
 
 }
+.social div img{
+      width:7vw;
+      height:2.5vw;
+      margin-right:0.5rem;
+}
+.social div{
+      padding-top: 0.5rem;
+}
+.social .icons i{
+      color: aliceblue;
+      font-size: 1.5rem;
+}
 .cool-link::after {
       content: '';
       display:block;
@@ -336,6 +348,11 @@ input[type="submit"]{
       height: 4px;
       background: #ED661F;
       transition: width .3s;
+  }
+
+  .footer div li:first-child{
+      font-size: 1.2rem;
+      font-weight: bold;
   }
   
 .cool-link:hover::after {
