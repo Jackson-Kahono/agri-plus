@@ -86,9 +86,35 @@
       background-color: #ED661F;
       width: fit-content;
     }
-    /*media query for screens larger than 992px*/
-    @media screen and (min-width: 992px) {
-      .container {
-        max-width: 1200px;
-      }
-    }
+
+/* =================================================================================================*/
+/*                                   Styling for members-count                                     */
+/* ===============================================================================================*/
+.members-count{
+      width:40%;
+      background-color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      padding: 2.5vw 1vw;
+      box-shadow: 1px 1px 2px grey;
+      position: absolute;
+      top: 40vw;
+      left: 40vw;
+}
+
+.members-count div li{
+      margin: 20px 0px;
+}
+
+
+
+
+/*media query for screens larger than 992px*/
+@media screen and (min-width: 992px) {
+.container {
+      max-width: 1200px;
+}
+}
