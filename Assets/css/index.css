@@ -68,7 +68,7 @@
       background-size: cover;
     }
     .about .txt{
-      font-size: 2vw;
+      font-size: 1.8vw;
       width:50%;
     }
     .about .txt p{
@@ -98,10 +98,10 @@
       display: flex;
       justify-content: space-around;
       list-style: none;
-      padding: 2.5vw 1vw;
+      padding: 2vw 1vw;
       box-shadow: 1px 1px 2px grey;
       position: absolute;
-      top: 40vw;
+      top: 38vw;
       left: 40vw;
 }
 
@@ -109,9 +109,28 @@
       margin: 20px 0px;
 }
 
+/* =================================================================================================*/
+/*                                         Styling for mission                                     */
+/* ===============================================================================================*/
 
+.mission{
+      
+      width:100%;
+      margin-top:10vw;
+      display: flex;
+      justify-content: space-around;
+}
 
+.mission img{
+      width:40vw;
+      height: 25vw;
 
+}
+.mission .txt{
+      font-size: 1.2vw;
+      padding-top: 5vw;
+      padding-left: 1vw;
+}
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
 .container {
