@@ -140,6 +140,10 @@
       padding-top: 5vw;
       padding-left: 1vw;
 }
+.mission .txt h1{
+      width: fit-content;
+      /* font-size: 1vw; */
+}
 
 /* =================================================================================================*/
 /*                                         Styling for categories                                  */
@@ -163,6 +167,7 @@
       padding-top: 2vw;
 }
 .popular h1{
+      width: fit-content;
       /* font-size:1vw; */
 }
 .popular .content{
@@ -196,15 +201,13 @@
 }
 
 .see{
-      /* font-size:1vw; */
-      width:100%;
-      margin:4vw 0vw;
-      text-align: right;
-      padding-right: 4vw;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 5vh;
 }
-.see span{
-
-      margin-right: 10vw;;
+.see div{
+      width:fit-content;
+      /* margin-right: 10vw; */
 }
 
 hr{
@@ -315,7 +318,18 @@ input[type="submit"]{
       margin:1vw 0vw;
 
 }
-
+.cool-link::after {
+      content: '';
+      display:block;
+      width: 0;
+      height: 4px;
+      background: #ED661F;
+      transition: width .3s;
+  }
+  
+.cool-link:hover::after {
+      width: 100%;
+  }
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
       .container {
