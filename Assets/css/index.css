@@ -340,6 +340,7 @@ input[type="submit"]{
 .social .icons i{
       color: aliceblue;
       font-size: 1.5rem;
+      margin-right: 0.5rem;
 }
 .cool-link::after {
       content: '';
