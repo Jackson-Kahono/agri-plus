@@ -256,6 +256,13 @@ hr{
       margin: 1vw 0px;
       padding: 1rem;
 }
+.ratings .icons .card i{
+      color: #ED661F;
+      font-size: 2rem;
+}
+#white{
+      color: lightgrey;
+}
 .ratings .icons div div{
       display: flex;
       align-items: center;
