@@ -117,6 +117,7 @@
       
       width:100%;
       margin-top:10vw;
+      margin-bottom: 5vw;
       display: flex;
       justify-content: space-around;
 }
@@ -131,6 +132,18 @@
       padding-top: 5vw;
       padding-left: 1vw;
 }
+
+/* =================================================================================================*/
+/*                                         Styling for categories                                  */
+/* ===============================================================================================*/
+
+.categories{
+      font-size: 1.2vw;
+      width:30vw;
+      margin:auto;
+      text-align: center;
+}
+
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
 .container {
