@@ -189,7 +189,24 @@
       font-weight: bold;
 }
 
+.see{
+      font-size:1.2vw;
+      width:100%;
+      margin:4vw 0vw;
+      text-align: right;
+      padding-right: 4vw;
+}
+.see span{
 
+      margin-right: 10vw;;
+}
+
+hr{
+      height:1.5vw;
+      background-color: lightgrey;
+      margin-top:2vw;
+      border-radius: 5px;
+}
 
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
