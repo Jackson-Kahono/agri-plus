@@ -26,9 +26,9 @@ As a farmer you are required to follow these steps:
 
 As a buyer you should:
 
--Create account
--login to your account
--loook for the items you need
+- Create account
+- login to your account
+- loook for the items you need
 - tap the item and the farmer's details will be displayed.
 - contact the farmer and make arrangements for the transaction.
 ### How to run this project
@@ -43,7 +43,7 @@ $ cd agri-plus
 
 ### Deployment
 
-This page is visible at Jackson-Kahono.github.io/agri-plus
+This page is visible at https://Jackson-Kahono.github.io/agri-plus
 
 ### License
 
