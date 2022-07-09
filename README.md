@@ -47,7 +47,7 @@ This page is visible at https://Jackson-Kahono.github.io/agri-plus
 
 ### contact-info
 
-Reach me on [email](jackson.kahono@student.moringaschool.com)
+Reach me on jackson.kahono@student.moringaschool.com
 
 twitter [@Jackson-Kahono](https://twitter.com/)
 
