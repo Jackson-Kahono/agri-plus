@@ -1,373 +1,345 @@
-
 /* styling for container*/
 
-*{
-      font-family: 'Poppins';
+* {
+  font-family: "Poppins";
 }
 
-.container{
-      width: 100%;
-      margin:auto;
+.container {
+  width: 100%;
+  margin: auto;
 }
 
-    
-    /* ============================================================================================*/
-    /*                                   Styling for Navbar                                       */
-    /* ==========================================================================================*/
-    
-    .nav{
-      color:aliceblue;
-      width: 100%;
-      background-color: black;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1vw;
-    }
-    
-    .nav div{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-    .nav li{
-      margin-right:1vw;
-      list-style: none;
-    }
-    
-    .nav .name{
-      font-size: 2rem;
-      font-weight: bold;
-    }
-    
-    .nav .links{
-      /* font-size: 1.2vw; */
-      font-weight: 600;
-    }
-    
-    .nav .login div{
-      /* font-size: 1.2vw; */
-      font-weight: 600;
-      margin-right:1vw;
-    }
-    
-    .nav .login div:last-child{
-      /* font-size: 1.3vw; */
-      padding: 1vw 1vw;
-      background-color: #ED661F;
-    }
-    
-    /* ============================================================================================*/
-    /*                                   Styling for About                                       */
-    /* ==========================================================================================*/
-    
-    .about{
-      width:100%;
-      margin:auto;
-      height: 80%;
-      display: flex;
-      justify-content: center;
-      padding:3vw 1vw;
-      background-image: url("../images/image 1.png");
-      background-position:100% 50%;
-      background-size: cover;
-    }
-    .about .txt{
-      /* font-size: 1vw; */
-      width:50%;
-    }
-    .about .txt p{
-      /* font-size: 1vw; */
-    }
-    .about img{
-      width:50%;
-      height:50%;
-    }
-    .about .txt div{
-      color: aliceblue;
-      /* font-size: 1.5vw; */
-      font-weight: bold;
-      padding: 1.5vw;
-      background-color: #ED661F;
-      width: fit-content;
-    }
+/* ============================================================================================*/
+/*                                   Styling for Navbar                                       */
+/* ==========================================================================================*/
+
+.nav {
+  color: aliceblue;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+}
+
+.nav div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav li {
+  margin-right: 1vw;
+  list-style: none;
+}
+
+.nav .name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav .links {
+  font-weight: 600;
+}
+
+.nav .login div {
+  font-weight: 600;
+  margin-right: 1vw;
+}
+
+.nav .login div:last-child {
+  /* font-size: 1.3vw; */
+  padding: 1vw 1vw;
+  background-color: #ed661f;
+}
+
+/* ============================================================================================*/
+/*                                   Styling for About                                       */
+/* ==========================================================================================*/
+
+.about {
+  width: 100%;
+  margin: auto;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 3vw 1vw;
+  background-image: url("../images/image 1.png");
+  background-position: 100% 50%;
+  background-size: cover;
+}
+.about .txt {
+  width: 50%;
+}
+
+.about img {
+  width: 50%;
+  height: 50%;
+}
+.about .txt div {
+  color: aliceblue;
+  font-weight: bold;
+  padding: 1.5vw;
+  background-color: #ed661f;
+  width: fit-content;
+}
 
 /* =================================================================================================*/
 /*                                   Styling for members-count                                     */
 /* ===============================================================================================*/
-.members-count{
-      width:35vw;
-      background-color: rgb(255, 255, 255);
-      /* font-size:1.1vw; */
-      font-weight: bold;
-      text-align: center;
-      display: flex;
-      justify-content: space-around;
-      list-style: none;
-      padding: 2vw 1vw;
-      box-shadow: 1px 1px 2px grey;
-      transform: translateY(-5vw);
-      float:right;
-      /* position: absolute;
-      top: 72%;
-      left: 40vw; */
+.members-count {
+  width: 35vw;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 2vw 1vw;
+  box-shadow: 1px 1px 2px grey;
+  transform: translateY(-5vw);
+  float: right;
 }
 
-.members-count div li{
-      margin: 20px 0px;
+.members-count div li {
+  margin: 20px 0px;
 }
 
 /* =================================================================================================*/
 /*                                         Styling for mission                                     */
 /* ===============================================================================================*/
 
-.mission{
-      
-      width:100%;
-      margin-top:10vw;
-      margin-bottom: 5vw;
-      display: flex;
-      justify-content: space-around;
+.mission {
+  width: 100%;
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+  display: flex;
+  justify-content: space-around;
 }
 
-.mission img{
-      width:40vw;
-      height: 25vw;
-
+.mission img {
+  width: 40vw;
+  height: 25vw;
 }
-.mission .txt{
-      /* font-size: 1vw; */
-      padding-top: 5vw;
-      padding-left: 1vw;
+.mission .txt {
+  padding-top: 5vw;
+  padding-left: 1vw;
 }
-.mission .txt h1{
-      width: fit-content;
-      /* font-size: 1vw; */
+.mission .txt h1 {
+  width: fit-content;
 }
 
 /* =================================================================================================*/
 /*                                         Styling for categories                                  */
 /* ===============================================================================================*/
 
-.categories{
-      /* font-size: 1vw; */
-      width:30vw;
-      margin:auto;
-      text-align: center;
+.categories {
+  width: 30vw;
+  margin: auto;
+  text-align: center;
 }
-
 
 /* =================================================================================================*/
 /*                                         Styling for popular                                     */
 /* ===============================================================================================*/
 
-.popular{
-      width:97%;
-      margin:auto;
-      padding-top: 2vw;
+.popular {
+  width: 97%;
+  margin: auto;
+  padding-top: 2vw;
 }
-.popular h1{
-      width: fit-content;
-      /* font-size:1vw; */
+.popular h1 {
+  width: fit-content;
 }
-.popular .content{
-      /* font-size: 1vw; */
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 1vw 0px;
-
+.popular .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw 0px;
 }
-.popular .content div img{
-      width:12vw;
-      height:10vw;
+.popular .content div img {
+  width: 12vw;
+  height: 10vw;
 }
 
-.popular .content div{
-      width: 100%;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      list-style: none;
+.popular .content div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style: none;
 }
 
-.content div li{
-      margin: 0.5vw 0px;
+.content div li {
+  margin: 0.5vw 0px;
 }
-/* style the first appearance of li in div*/
-.popular .content div li:nth-last-child(3), .content div li:last-child{
-      font-weight: bold;
-}
-
-.see{
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      margin-bottom: 5vh;
+.popular .content div li:nth-last-child(3),
+.content div li:last-child {
+  font-weight: bold;
 }
 
-.see i{
-      color: #ED661F;
-      font-size: 2rem;
-      font-weight: bold;
-      margin-left:1rem;
+.see {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 5vh;
 }
 
-hr{
-      height:1.5vw;
-      background-color: lightgrey;
-      margin-top:2vw;
-      border-radius: 5px;
+.see i {
+  color: #ed661f;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+hr {
+  height: 1.5vw;
+  background-color: lightgrey;
+  margin-top: 2vw;
+  border-radius: 5px;
 }
 
 /* =================================================================================================*/
 /*                                         Styling for ratings                                     */
 /* ===============================================================================================*/
 
-.ratings{
-      width:95%;
-      margin:auto;
-      padding: 2vw;
+.ratings {
+  width: 95%;
+  margin: auto;
+  padding: 2vw;
 }
 
-.ratings .icons{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin: 1vw 0px;
-      
+.ratings .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1vw 0px;
 }
 
-.ratings img{
-      width:2.5vw;
-      margin-right: 1vw;
+.ratings img {
+  width: 2.5vw;
+  margin-right: 1vw;
 }
-.ratings .icons .card{
-      width: 15vw;
-      
-      box-shadow: 2px 2px 6px rgb(216, 208, 208);
-      border-radius: 10px;
-      padding: 1vw;
-      margin-top:2vw;
-      /* padding: 1rem 0rem; */
+.ratings .icons .card {
+  width: 15vw;
+
+  box-shadow: 2px 2px 6px rgb(216, 208, 208);
+  border-radius: 10px;
+  padding: 1vw;
+  margin-top: 2vw;
 }
-.ratings .icons div p{
-      word-wrap: break-word;
-      /* font-size: 1vw; */
-      word-spacing: 0.4em;
-      font-weight: bold;
-      margin: 1vw 0px;
-      padding: 1rem;
+.ratings .icons div p {
+  word-wrap: break-word;
+  word-spacing: 0.4em;
+  font-weight: bold;
+  margin: 1vw 0px;
+  padding: 1rem;
 }
-.ratings .icons .card i{
-      color: #ED661F;
-      font-size: 2rem;
+.ratings .icons .card i {
+  color: #ed661f;
+  font-size: 2rem;
 }
-#white{
-      color: lightgrey;
+#white {
+  color: lightgrey;
 }
-.ratings .icons div div{
-      display: flex;
-      align-items: center;
+.ratings .icons div div {
+  display: flex;
+  align-items: center;
 }
-.ratings .icons .card div span{
-      font-weight: bold;
+.ratings .icons .card div span {
+  font-weight: bold;
 }
 
 /* =================================================================================================*/
 /*                                         Styling for form                                        */
 /* ===============================================================================================*/
 
-.form{
-      color:aliceblue;
-      text-align: center;
-      width:100%;
-      margin:auto;
-      padding: 2vw;
-      background-color: black;
+.form {
+  color: aliceblue;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 2vw;
+  background-color: black;
 }
 
-
-input[type="text"]{
-      color:black;
-      /* font-size: 1vw; */
-      font-weight: bold;
-      width: 20vw;
-      /* height: 1vw; */
-      border: none;
-      /* border: 1px solid lightgrey; */
-      padding: 0.5vw 1vw;
-      margin: 1vw 0px;
-      background-color: white;
+input[type="text"] {
+  color: black;
+  font-weight: bold;
+  width: 20vw;
+  border: none;
+  padding: 0.5vw 1vw;
+  margin: 1vw 0px;
+  background-color: white;
 }
 
-input[type="submit"]{
-      color:aliceblue;
-      /* font-size: 1vw; */
-      background-color: #ED661F;
-      padding: 0.5vw 0.5vw;
-      border: none;
-      margin-left:-10px;
+input[type="submit"] {
+  color: aliceblue;
+  background-color: #ed661f;
+  padding: 0.5vw 0.5vw;
+  border: none;
+  margin-left: -10px;
 }
 
 /* =================================================================================================*/
 /*                                         Styling for footer                                      */
 /* ===============================================================================================*/
 
-.footer{
-      color: aliceblue;
-      width: 100%;
-      margin: auto;
-      padding: 2vw;
-      display: flex;
-      justify-content: space-around;
-      background-color: black;
-      list-style: none;
+.footer {
+  color: aliceblue;
+  width: 100%;
+  margin: auto;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  list-style: none;
 }
-.footer div li{
-      margin:1vw 0vw;
-
+.footer div li {
+  margin: 1vw 0vw;
 }
-.social div img{
-      width:7vw;
-      height:2.5vw;
-      margin-right:0.5rem;
+.social div img {
+  width: 7vw;
+  height: 2.5vw;
+  margin-right: 0.5rem;
 }
-.social div{
-      padding-top: 0.5rem;
+.social div {
+  padding-top: 0.5rem;
 }
-.social .icons i{
-      color: aliceblue;
-      font-size: 1.5rem;
-      margin-right: 0.5rem;
+.social .icons i {
+  color: aliceblue;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
 }
 .cool-link::after {
-      content: '';
-      display:block;
-      width: 0;
-      height: 4px;
-      background: #ED661F;
-      transition: width .3s;
-  }
-
-  .footer div li:first-child{
-      font-size: 1.2rem;
-      font-weight: bold;
-  }
-  
-.cool-link:hover::after {
-      width: 100%;
-  }
-
-.terms{
-      color:aliceblue;
-      text-align: center;
-      transform: translateY(-60px);
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: #ed661f;
+  transition: width 0.3s;
 }
+
+.footer div li:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
+
+.terms {
+  color: aliceblue;
+  text-align: center;
+  transform: translateY(-60px);
+}
+
+
 /*media query for screens larger than 992px*/
 @media screen and (min-width: 992px) {
-      .container {
-            max-width: 1200px;
-      }
+  .container {
+    max-width: 1200px;
+  }
 }
