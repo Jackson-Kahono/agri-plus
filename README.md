@@ -45,6 +45,13 @@ $ cd agri-plus
 
 This page is visible at https://Jackson-Kahono.github.io/agri-plus
 
+### contact-info
+
+Reach me on email @ jackson.kahono@student.moringaschool.com
+
+twitter @Jackson-Kahono[https://twitter.com/]
+
+LinkedIn Jackson_Kahono [https://linkedin.com]
 ### License
 
 MIT
