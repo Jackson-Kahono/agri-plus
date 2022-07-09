@@ -149,6 +149,7 @@
   padding-top: 2vw;
 }
 .popular h1 {
+  font-weight: 800;
   width: fit-content;
 }
 .popular .content {
@@ -163,14 +164,16 @@
 }
 
 .popular .content div {
-  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   list-style: none;
+  padding: 10px;
 }
-
+.popular .content div:hover{
+      box-shadow: rgb(202, 202, 202) 0px 0px 8px 0px;
+}
 .content div li {
   margin: 0.5vw 0px;
 }
@@ -224,7 +227,7 @@ hr {
 .ratings .icons .card {
   width: 15vw;
 
-  box-shadow: 2px 2px 6px rgb(216, 208, 208);
+  box-shadow: rgb(202, 202, 202) 0px 0px 8px 0px;
   border-radius: 10px;
   padding: 1vw;
   margin-top: 2vw;
@@ -232,17 +235,21 @@ hr {
 .ratings .icons div p {
   word-wrap: break-word;
   word-spacing: 0.4em;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin: 1vw 0px;
   padding: 1rem;
 }
-.ratings .icons .card i {
+.ratings .icons .card span.material-symbols-rounded {
   color: #ed661f;
-  font-size: 2rem;
+  font-size: 3rem;
 }
-#white {
-  color: lightgrey;
+
+.ratings .icons .card span.white{
+  color: lightgray;
 }
+
+
 .ratings .icons div div {
   display: flex;
   align-items: center;
@@ -251,6 +258,9 @@ hr {
   font-weight: bold;
 }
 
+.ratings .icons .card:hover{
+      box-shadow: rgb(202, 202, 202) 0px 0px 20px 0px;
+}
 /* =================================================================================================*/
 /*                                         Styling for form                                        */
 /* ===============================================================================================*/
