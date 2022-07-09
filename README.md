@@ -1,9 +1,7 @@
-# agri-plus
-Buying and selling quality farm products.
-
 # AgriPlus
 
 Bringing producers and consumers together. We connect farmers to the market and consumers to fresh farm produce.
+Buying and selling farm products has never been easier.
 
 ## Author
 
